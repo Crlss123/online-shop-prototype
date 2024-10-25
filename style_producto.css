@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Roboto;
+  padding: 0;
+  border: 0;
+}
+
+.main-container {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.content-container {
+  margin-top: 100px;
+  flex: 0 0 auto;
+  height: 600px;
+  width: 900px;
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.info-container {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nombre-producto,
+.empresa,
+.precio,
+.boton-comprar {
+  flex: 0 1 150px;
+  width: 100%;
+  padding-left: 50px;
+}
+
+.nombre-producto{
+  margin-top: 75px;
+}
+
+.boton-comprar{
+  margin-bottom: 75px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(64, 164, 252);
+}
+
+button{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #34b1db;
+  height: 100px;
+  width: 210px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
